@@ -765,7 +765,7 @@ class ResultAnalyzer:
 
     def _add_top_students(self, doc):
         """Add top students section with validation"""
-        doc.add_heading("Top 10 Students by Total Full Marks", level=1) \
+        doc.add_heading("Top 10 Students by Total Full Marks\nNote: It Includes Backlog Papers As Well.", level=1) \
             .alignment = WD_ALIGN_PARAGRAPH.CENTER
 
         try:
